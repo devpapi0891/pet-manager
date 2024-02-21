@@ -138,7 +138,7 @@
                   <p class="mr-auto">{dog?.name}</p>
 									<div class="gap-2">
 										{#if category === 'listed'}
-										<button class="btn variant-filled" on:click={()=>{deleteItem(dog.name)}}>Remove</button>
+										<button class="btn variant-filled-error" on:click={()=>{deleteItem(dog.name)}}>Remove</button>
 										{/if}
 										{#if category !== 'finally_back_to_hooman'}
 										<button class="btn variant-filled" on:click={()=>{updateStatus(dog.name)}}>Next</button>
