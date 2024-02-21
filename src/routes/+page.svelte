@@ -69,7 +69,7 @@
   }
 
 	function deleteItem(name: string) {
-		if (!confirm(`Do you want to delete this ${name}?`)) {
+		if (!confirm(`Do you want to delete ${name} from the list?`)) {
 			return;
 		}
 		// Find from array where property name = name
